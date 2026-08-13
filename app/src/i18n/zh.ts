@@ -287,6 +287,7 @@ export const zh: I18n = {
     refreshCss: '从磁盘重新加载自定义 CSS',
     customCssLoaded: '自定义 CSS 主题已加载',
     customCssReloaded: '自定义 CSS 主题已重新加载',
+    customCssFixedWarning: '主题使用了 "background-attachment: fixed"。为避免拖动面板时闪烁，SoloMD 已强制为 "scroll"（本应用从不滚动，显示效果相同）。',
     clear: '清除',
     fileAssoc: '文件关联',
     setDefault: '⭐ 设为默认 Markdown 编辑器',

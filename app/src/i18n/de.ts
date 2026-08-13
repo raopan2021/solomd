@@ -286,6 +286,7 @@ export const de: I18n = {
     refreshCss: 'Custom CSS von der Festplatte neu laden',
     customCssLoaded: 'Benutzerdefiniertes CSS-Theme geladen',
     customCssReloaded: 'Benutzerdefiniertes CSS-Theme neu geladen',
+    customCssFixedWarning: 'Theme verwendet "background-attachment: fixed". SoloMD erzwingt "scroll", um Flackern beim Ziehen von Panels zu vermeiden — hier optisch identisch, da die App nie scrollt.',
     clear: 'Leeren',
     fileAssoc: 'Dateizuordnung',
     setDefault: '⭐ SoloMD als Standard-Markdown-Editor festlegen',

@@ -313,6 +313,9 @@ body {
   font-size: var(--ui-font-size, 13px);
   color: var(--text);
   background: var(--bg);
+  /* #drag-flicker: force `scroll` (never `fixed`) so dragging a splitter
+     doesn't re-rasterize the whole theme backdrop every frame. */
+  background-attachment: scroll !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

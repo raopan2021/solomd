@@ -286,6 +286,7 @@ export const ko: I18n = {
     refreshCss: '디스크에서 사용자 지정 CSS 다시 로드',
     customCssLoaded: '사용자 지정 CSS 테마가 로드되었습니다',
     customCssReloaded: '사용자 지정 CSS 테마가 다시 로드되었습니다',
+    customCssFixedWarning: '테마가 "background-attachment: fixed"를 사용합니다. 패널 드래그 시 깜빡임을 막기 위해 SoloMD가 "scroll"을 강제합니다(이 앱은 스크롤하지 않아 표시는 동일합니다).',
     clear: '지우기',
     fileAssoc: '파일 연결',
     setDefault: '⭐ SoloMD를 기본 Markdown 에디터로 설정',

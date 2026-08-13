@@ -286,6 +286,7 @@ export const nl: I18n = {
     refreshCss: 'Aangepaste CSS opnieuw laden vanaf schijf',
     customCssLoaded: 'Aangepast CSS-thema geladen',
     customCssReloaded: 'Aangepast CSS-thema opnieuw geladen',
+    customCssFixedWarning: 'Thema gebruikt "background-attachment: fixed". SoloMD dwingt "scroll" af om flikkeren tijdens het slepen van panelen te voorkomen — hier visueel identiek, want de app scrolt nooit.',
     clear: 'Wissen',
     fileAssoc: 'Bestandskoppeling',
     setDefault: '⭐ SoloMD als standaard Markdown-editor instellen',

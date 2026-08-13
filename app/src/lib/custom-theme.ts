@@ -7,6 +7,8 @@
  */
 
 import { invoke } from '@tauri-apps/api/core';
+import { useToastsStore } from '../stores/toasts';
+import { useI18n } from '../i18n';
 
 const STYLE_ID = 'solomd-custom-theme';
 
@@ -17,6 +19,11 @@ interface FileReadResult {
   had_bom: boolean;
 }
 
+// Matches either `background-attachment: fixed` or a `background` shorthand
+// that contains `fixed` (the app shell is overflow:hidden and never scrolls,
+// so a fixed backdrop only causes flicker when dragging splitters).
+const FIXED_ATTACHMENT_RE = /background-attachment\s*:\s*fixed|background\s*:[^;{}]*\bfixed\b/i;
+
 export async function loadCustomTheme(path: string): Promise<void> {
   if (!path) {
     removeCustomTheme();
@@ -25,6 +32,12 @@ export async function loadCustomTheme(path: string): Promise<void> {
   try {
     const result = await invoke<FileReadResult>('read_file', { path });
     applyCss(result.content);
+    if (FIXED_ATTACHMENT_RE.test(result.content)) {
+      // App forces `background-attachment: scroll !important` to avoid this,
+      // but the theme author may still wonder why `fixed` doesn't apply.
+      const { t } = useI18n();
+      useToastsStore().warning(t('settings.customCssFixedWarning'), 5000);
+    }
   } catch (e) {
     console.error('Failed to load custom theme:', e);
     removeCustomTheme();

@@ -286,6 +286,7 @@ export const it: I18n = {
     refreshCss: 'Ricarica CSS personalizzato dal disco',
     customCssLoaded: 'Tema CSS personalizzato caricato',
     customCssReloaded: 'Tema CSS personalizzato ricaricato',
+    customCssFixedWarning: 'Il tema usa "background-attachment: fixed". SoloMD forza "scroll" per evitare sfarfallii durante il trascinamento dei pannelli — qui è identico, l\u0027app non scorre mai.',
     clear: 'Cancella',
     fileAssoc: 'Associazione file',
     setDefault: '⭐ Imposta SoloMD come editor Markdown predefinito',

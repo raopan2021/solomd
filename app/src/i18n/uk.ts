@@ -286,6 +286,7 @@ export const uk: I18n = {
     refreshCss: 'Перезавантажити кастомний CSS з диска',
     customCssLoaded: 'Кастомну CSS-тему завантажено',
     customCssReloaded: 'Кастомну CSS-тему перезавантажено',
+    customCssFixedWarning: 'Тема використовує "background-attachment: fixed". SoloMD примусово застосовує "scroll", щоб уникнути мерехтіння під час перетягування панелей — тут виглядає однаково, бо застосунок ніколи не прокручується.',
     clear: 'Очистити',
     fileAssoc: 'Асоціація файлів',
     setDefault: '⭐ Зробити SoloMD типовим редактором Markdown',

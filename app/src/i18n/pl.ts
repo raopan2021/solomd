@@ -286,6 +286,7 @@ export const pl: I18n = {
     refreshCss: 'Przeładuj niestandardowy CSS z dysku',
     customCssLoaded: 'Załadowano niestandardowy motyw CSS',
     customCssReloaded: 'Przeładowano niestandardowy motyw CSS',
+    customCssFixedWarning: 'Motyw używa "background-attachment: fixed". SoloMD wymusza "scroll", aby uniknąć migotania podczas przeciągania paneli — tutaj wygląda identycznie, bo aplikacja nigdy nie przewija.',
     clear: 'Wyczyść',
     fileAssoc: 'Skojarzenia plików',
     setDefault: '⭐ Ustaw SoloMD jako domyślny edytor Markdown',

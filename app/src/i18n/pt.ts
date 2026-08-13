@@ -288,6 +288,7 @@ export const pt: I18n = {
     refreshCss: 'Recarregar CSS personalizado do disco',
     customCssLoaded: 'Tema CSS personalizado carregado',
     customCssReloaded: 'Tema CSS personalizado recarregado',
+    customCssFixedWarning: 'O tema usa "background-attachment: fixed". O SoloMD força "scroll" para evitar tremulação ao arrastar painéis — parece igual aqui, pois o app nunca rola.',
     clear: 'Limpar',
     fileAssoc: 'Associação de arquivos',
     setDefault: '⭐ Definir SoloMD como editor Markdown padrão',

@@ -286,6 +286,7 @@ export const sv: I18n = {
     refreshCss: 'Ladda om anpassad CSS från disk',
     customCssLoaded: 'Anpassad CSS-tema laddad',
     customCssReloaded: 'Anpassad CSS-tema omladdad',
+    customCssFixedWarning: 'Tematet använder "background-attachment: fixed". SoloMD tvingar "scroll" för att undvika flimmer vid dragning av paneler — ser identiskt ut här eftersom appen aldrig scrollar.',
     clear: 'Rensa',
     fileAssoc: 'Filassociation',
     setDefault: '⭐ Sätt SoloMD som standard Markdown-editor',

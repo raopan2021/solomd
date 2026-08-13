@@ -286,6 +286,7 @@ export const en = {
     refreshCss: 'Reload custom CSS from disk',
     customCssLoaded: 'Custom CSS theme loaded',
     customCssReloaded: 'Custom CSS theme reloaded',
+    customCssFixedWarning: "Theme uses 'background-attachment: fixed'. SoloMD forces 'scroll' to prevent flicker while dragging panels — looks identical here since the app never scrolls.",
     clear: 'Clear',
     fileAssoc: 'File Association',
     setDefault: '⭐ Set SoloMD as default Markdown editor',

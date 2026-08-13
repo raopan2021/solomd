@@ -286,6 +286,7 @@ export const ja: I18n = {
     refreshCss: 'カスタム CSS をディスクから再読み込み',
     customCssLoaded: 'カスタム CSS テーマを読み込みました',
     customCssReloaded: 'カスタム CSS テーマを再読み込みしました',
+    customCssFixedWarning: 'テーマが "background-attachment: fixed" を使用しています。パネルをドラッグしたときのちらつきを防ぐため SoloMD は "scroll" を強制します（このアプリはスクロールしないため表示は同じです）。',
     clear: 'クリア',
     fileAssoc: 'ファイル関連付け',
     setDefault: '⭐ SoloMD をデフォルトの Markdown エディタに設定',

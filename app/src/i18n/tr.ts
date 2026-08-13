@@ -286,6 +286,7 @@ export const tr: I18n = {
     refreshCss: 'Özel CSS\u0027i diskten yeniden yükle',
     customCssLoaded: 'Özel CSS teması yüklendi',
     customCssReloaded: 'Özel CSS teması yeniden yüklendi',
+    customCssFixedWarning: 'Tema "background-attachment: fixed" kullanıyor. SoloMD, panelleri sürüklerken titremeyi önlemek için "scroll"\u0027u zorlar — uygulama hiç kaydırmadığından burada aynı görünür.',
     clear: 'Temizle',
     fileAssoc: 'Dosya İlişkilendirme',
     setDefault: '⭐ SoloMD\'yi varsayılan Markdown düzenleyici yap',
